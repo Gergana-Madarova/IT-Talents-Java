@@ -35,8 +35,6 @@ public class Task10 {
             }
         }
 
-        //??? как се изписва в java да се показват до 2 знака след запетаята
-        // System.out.println("Средна стойност %2f", average);
         System.out.println("Средна стойност " + average + ", най-близка стойност " + array[index]);
     }
 }

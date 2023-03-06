@@ -46,7 +46,6 @@ public class Task15ver2 {
                 }
             }
             array2[j] = max;
-            //по-добре ли е да запазя оригиналния масив и да променям стойностите на негово копие?
             array[index] = 0;
             max = Double.MIN_VALUE;
         }

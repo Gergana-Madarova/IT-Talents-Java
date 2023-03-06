@@ -23,9 +23,11 @@ public class Task13 {
         int count = 0;
 
         for (int i = 0; i < array.length; i++) {
-            int remainder = number % 2;     //остатъка от деленето
+            //остатъка от деленето
+            int remainder = number % 2;
             number = number / 2;
-            count++;                        //за да не извеждам незначещите нули пред числото в двоичен вид
+            //за да не извеждам незначещите нули пред числото в двоичен вид
+            count++;
             array[i] = remainder;
             if (number == 0) {
                 break;

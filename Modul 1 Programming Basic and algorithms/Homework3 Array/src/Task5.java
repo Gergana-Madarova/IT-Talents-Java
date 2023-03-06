@@ -5,11 +5,8 @@
 Да се изведат елементите на екрана.
  */
 
-import java.util.Scanner;
-
 public class Task5 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int[] array = new int[10];
 
         for (int i = 0; i < 10; i++) {
